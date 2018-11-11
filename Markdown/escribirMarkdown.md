@@ -1,23 +1,34 @@
 ## Parrafos
 Esto es un parrafo
 
+Encabezado h1 con Simbolo =
+=
+Encabezado h2 con sibolo -
+-
 ## Encabezados
 # Esto es un h1
 ## Esto es un h2
 ### esto es un h3...
 
 ## listas
- * lunes
- * martes 
- * miercoles
+***Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de suma.***
+
+ + lunes
+ + martes 
+ + miercoles
     * mañana
     * tarde
-    * noche
+    - noche  
         listas ordenadas:
         1. jueves 
-        2. viernes 
+        2. viernes
         3. sabado
-        4. domingo
+        4. domingo 
+   
+## Linea Horizontal  *** ---___
+***
+---
+___
 
 ## Imagenes
 "Sin espacio entre los corchetes y los parentesis"
@@ -56,13 +67,19 @@ const holaMundo = () => "Hola Mundo"
 > En algun lugar de la mancha...
 sigo escribiendo mi cita textual
 
-"Para salir de un elemento de bloque o cita hay q saltar de linea dos veces"
+"Para salir de un elemento de bloque o cita hay q saltar de linea dos veces" 
+
+## Citas anidadas
+> En algun lugar de la mancha...
+sigo escribiendo mi cita textual  
+>>"Esta es una cita anidada".
 
 ## Tablas
-Se crea la tabla ta cual esta escrito
-***Con dos puntos podemos alinar el contenido de las tablas*** :
----|:---|--- con puntos a la izquierda: alineo a l izquierda. 
----|---:|--- con puntos a la derecha: alineo a la derecha.
+Se crea la tabla ta cual esta escrito  
+
+***Con dos puntos podemos alinar el contenido de las tablas*** :  
+---|:---|--- con puntos a la izquierda: alineo a l izquierda.  
+---|---:|--- con puntos a la derecha: alineo a la derecha.  
 ---|:---:|--- con puntos a los os lados : centro el contenido.
 
 
