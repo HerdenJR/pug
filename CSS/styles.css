@@ -1,3 +1,78 @@
 body {
-    background: lime;
+    font-size: 1.5em;
+}
+
+:root {
+    --color-title: rgb(255, 0, 140);
+    --color-subtitle: blue;
+}
+.title {
+    background:yellow;
+    color: red;
+}
+
+.description {
+    background: brown;
+    color: white;
+}
+
+/*Clases reutilizables*/
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+/*Hijo directo
+Para crear un menu basico al pasar el mouse en un item*/
+
+li > ul  {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    color: rgb(47, 206, 255);
+}
+
+/* Hermano siguiente (adyacente)*/
+
+.title-1 {
+    color: var(--color-title);
+}
+
+.title-2 {
+    color: var(--color-subtitle);
+}
+.subtitle {
+    font-size: .5em;
+    margin-top: -2em;
+}
+
+.title-1 + .subtitle {
+    color: var(--color-title);
+}
+
+.title-2 + .subtitle {
+    color: var(--color-subtitle);
+}
+
+/*Hermanos Siguientes*/
+
+.hermano-mayor ~ .hermano {
+    background: yellow;
+}
+
+.enabled {
+    display: none;
+}
+
+.check:checked + .enabled{
+    display: block;
+}
+
+.check:checked ~ .disabled {
+    display: none;
 }

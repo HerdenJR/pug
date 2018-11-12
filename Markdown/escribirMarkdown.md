@@ -63,7 +63,7 @@ const holaMundo = () => "Hola Mundo"
 **Negritas.**
 ***Combinados.***
 
-## Citas o <blockquote>
+## Citas o blockquote
 > En algun lugar de la mancha...
 sigo escribiendo mi cita textual
 
